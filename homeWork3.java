@@ -16,12 +16,12 @@ public class homeWork3 {
         return isDivisible(number1, number3) && isDivisible(number2, number3);
 
     }
-
+// Comment zapushen v git hub
     public static boolean isDivisible(int number1, int number2) {
 
         return (number2 != 0 && number1 % number2 == 0);
     }
-
+//Hello world!
     public static void printResult(int number1, int number2, int number3, boolean result) {
         if (result) {
             System.out.println(number1 + " & " + number2 + " делятся на " + number3);
