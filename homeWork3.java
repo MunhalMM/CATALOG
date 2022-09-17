@@ -9,7 +9,7 @@ public class homeWork3 {
         boolean res = isDivisible2Number(number1, number2, number3);
         printResult(number1, number2, number3, res);
     }
-
+// Catalog dobavilsa
     public static boolean isDivisible2Number(int number1, int number2, int number3) {
         return isDivisible(number1, number3) && isDivisible(number2, number3);
 
